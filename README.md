@@ -1,7 +1,7 @@
-# CS 470 Final Reflection
+**CS 470 Final Reflection**
 **Adam Sissoko**  
 **Date:** 07/07/2023  
-**Link:  **
+**Link:** 
 ---
 
 ## Experiences and Strengths
