@@ -97,7 +97,29 @@
 <p>
   This application was built using a robust stack of technologies, each contributing significantly to different facets of the application. For more information on how to run the application locally, please refer to the <a href="#installation">installation</a> section below.
 </p>
-<div align="left">: Used for crafting the responsive and intuitive front-end.: Serves as the back-end runtime, built on Chrome's V8 JavaScript engine.: A Node.js web application framework that handles the application's API and middleware.: Utilized for local data storage before migration to AWS DynamoDB.: Used for containerizing the application, enhancing its portability.: AWS's NoSQL database service, utilized for efficient data storage.: Serverless compute service, used for running backend functions in the AWS cloud.</div>
+
+### Project Frameworks
+
+This project used the following frameworks, and will require them to run on your machine. See the [installation](#installation) section for more information.
+
+<div align="left">
+
+- [![Angular][Angular.io]][Angular-url]: Used for crafting the responsive and intuitive front-end.
+  
+- [![Node][Node.js]][Node-url]: Serves as the back-end runtime, built on Chrome's V8 JavaScript engine.
+
+- [![Express][Express.js]][Express-url]: A Node.js web application framework that handles the application's API and middleware.
+  
+- [![Mongodb][Mongodb]][Mongodb-url]: Utilized for local data storage before migration to AWS DynamoDB.
+  
+- [![Docker][Docker]][Docker-url]: Used for containerizing the application, enhancing its portability.
+  
+- [![DynamoDB][DynamoDB]][DynamoDB-url]: AWS's NoSQL database service, utilized for efficient data storage.
+  
+- [![AWS][AWS]][AWS-url]: Serverless compute service, used for running backend functions in the AWS cloud.
+
+</div>
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
