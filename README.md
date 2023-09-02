@@ -37,7 +37,7 @@
   <h3 align="center">CS 470: Full Stack Development II</h3>
 
   <p align="center">
-    Lawrence Artl III
+    Adam Sissoko
     <br />
     <a href="https://github.com/adamsissoko/CS470/tree/main/writeups/Docs"><strong>Explore the docs »</strong></a>
     <br />
