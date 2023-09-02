@@ -39,7 +39,7 @@
   <p align="center">
     Adam Sissoko
     <br />
-    <a href="https://github.com/adamsissoko/CS470/tree/main/writeups/Docs"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/adamsissoko/CS470/tree/main/documents/Docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="http://bucket-burydbultrimilog.s3-website-us-east-1.amazonaws.com/">View Demo</a>
@@ -177,9 +177,9 @@ Get Docker Desktop <a href="https://www.docker.com/products/docker-desktop/">her
 
 To install and run the application, follow the instructions below.
 
-1. Follow the <a href="https://github.com/adamsissoko/CS470/blob/main/writeups/Guides/CS%20470%20Module%20One%20Assignment%20-%20Docker%20Containers%20Guide.pdf">guide</a> to get Docker Desktop installed and running.
+1. Follow the <a href="https://github.com/adamsissoko/CS470/blob/main/documents/Guides/CS%20470%20Module%20One%20Assignment%20-%20Docker%20Containers%20Guide.pdf">guide</a> to get Docker Desktop installed and running.
 2. Follow the next <a href="">guide</a> to fork and install the "Learn Angular from Scratch" (lafs) repos. You will containerize both repos.
-3. Follow the last <a href="https://github.com/adamsissoko/CS470/blob/main/writeups/Guides/CS%20470%20Module%20Two%20Assignment%20-%20Docker%20Compose%20Guide.pdf">guide</a> to create a network of containers using Docker Compose.
+3. Follow the last <a href="https://github.com/adamsissoko/CS470/blob/main/documents/Guides/CS%20470%20Module%20Two%20Assignment%20-%20Docker%20Compose%20Guide.pdf">guide</a> to create a network of containers using Docker Compose.
 
 4. Open a web browser and navigate to "http://localhost:3000" to access the API
 5. Open another browser tab / window and navigate to "http://localhost:4200" to access the backend
@@ -261,7 +261,7 @@ To install and run the application, follow the instructions below.
     </tr>
 </table>
 
-_For more information, please refer to the [Guides](https://github.com/adamsissoko/CS470/tree/main/writeups/Guides)_
+_For more information, please refer to the [Guides](https://github.com/adamsissoko/CS470/tree/main/documents/Guides)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
