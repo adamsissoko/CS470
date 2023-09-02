@@ -42,7 +42,7 @@
     <a href="https://github.com/adamsissoko/CS470/tree/main/documents/Docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="http://bucket-burydbultrimilog.s3-website-us-east-1.amazonaws.com/">View Demo</a>
+    <a href="http://adamsissokobucket.s3-website-us-east-1.amazonaws.com/">View Demo</a>
     ·
     <a href="https://github.com/adamsissoko/CS470/issues">Report Bug</a>
     ·
