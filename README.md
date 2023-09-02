@@ -92,10 +92,10 @@ Course Prerequisites
 <h3>
 Course Description
 </h3>
-<p>students will develop a full stack application that runs in the cloud. Through the application of cloud-based development principles and best practices, students will take their software stack from Full Stack Development I and utilize frameworks to build the cloud architecture upon which the software stack application will run. In addition, students will demonstrate their career readiness by articulating highly technical content to various audiences and in various formats. This course is the second in a two-course sequence.
+<p>Students will develop a full stack application that runs in the cloud. Through the application of cloud-based development principles and best practices, students will take their software stack from Full Stack Development I and utilize frameworks to build the cloud architecture upon which the software stack application will run. In addition, students will demonstrate their career readiness by articulating highly technical content to various audiences and in various formats. This course is the second in a two-course sequence.
 </p>
 <p>
-This course covers the following competencies, which represent the knowledge and skills relevant to your field:
+This course covers the following competencies, which represent the knowledge and skills relevant to the field:
 
 - [x] CS-40430: Apply cloud-based development principles and best practices in application development
 - [x] CS-40431: Develop applications that run on cloud-based frameworks
@@ -114,11 +114,11 @@ This course covers the following competencies, which represent the knowledge and
 </div>
 
 <p>
-  During this course we explored the use of containers for development of a web application. Starting with Docker and Docker compose, a simple application was developed that made use of Angular for a front end, node.js for the backend, and MongoDB to store data locally. 
+  In this course, we delved into container-based web application development, initially utilizing Docker and Docker Compose. The application featured an Angular front end, a Node.js backend, and MongoDB for local data storage. 
   
-  Eventually the application was moved to the cloud, taking advantage of Amazon's Web Service environment including DynamoDB and Lambda functions to handle data streams and user interaction. 
- 
-This project involved a lot of problem solving and debugging as the AWS environment is very particular in how interactions between the Lambda functions and the API are implemented. Since problem solving is my forte, I thouroughly enjoyed very aspect of this build. Check out the final product with the link above!
+  Later, the application was migrated to the Amazon Web Services (AWS) ecosystem, leveraging services like DynamoDB for database management and Lambda functions for data stream processing and user engagement.
+  
+  Navigating through AWS's intricate configurations between Lambda and the API presented numerous challenges that required targeted problem-solving and debugging. Given my affinity for problem-solving, I found every part of this project enriching. The final version of the application can be accessed via the link provided above.
 </p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -149,11 +149,11 @@ This project used the following frameworks, and will require them to run on your
 <!-- DEVLOPMENT OF THE PROJECT -->
 ### How I Developed The Project
 
-  <p>
-This project followed several guides to get the containers set up on a local machine, and more guides to access and set up the AWS environment. Development took about seven weeks, and made use of pre-built Angular application found <a href="https://github.com/AngularTemplates/learn-angular-from-scratch-step-by-step">here</a>. The API for this project is also pre-built and can be found <a href="https://github.com/AngularTemplates/learn-how-to-build-a-mean-stack-application">here</a>.
+<p>
+This project was developed over a span of seven weeks and involved setting up containers for local development initially. To accelerate the development process, a pre-configured Angular application was employed, which can be found <a href="https://github.com/AngularTemplates/learn-angular-from-scratch-step-by-step">here</a>. Similarly, a pre-built API was utilized, accessible <a href="https://github.com/AngularTemplates/learn-how-to-build-a-mean-stack-application">here</a>. These foundations allowed more focus on integrating the various components and debugging.
 </p>
 <p>
-My approach to solving the above problem (and all others in any other aspect of my life) is methodical and logical. I typically know the limitations and abilites of the tools I am using to solve the problem, and using a one-step-at-a-time method helps me to work efficiently. I rarely have the problem in missing the "forest for the trees"; in fact, I'm very good at stepping back from the details and seeing the big picture for what it is, and then stepping back into the details with an understanding of how they effect the overall problem / solution.
+The approach to this project was deliberate, emphasizing a detailed understanding of the tools at hand. Initially developed with Docker and Docker Compose, the application used Angular for the front end and Node.js for the back end, with MongoDB for local data storage. As the project progressed, it was migrated to Amazon Web Services, using DynamoDB for data storage and Lambda functions for handling data streams and user interactions. This transition required careful debugging due to AWS's specific requirements for Lambda function and API interactions.
 </p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -188,9 +188,18 @@ To install and run the application, follow the instructions below.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-<h3>Front-end Customer Facing Website</h3>
-<p>The front end of the website can be accessed <a href="http://bucket-burydbultrimilog.s3-website-us-east-1.amazonaws.com/">here</a> </p>
-<p>The website is a mock-up of a study page that allows users to select a topic and then add questions to that topic. Selecting the topic will bring up the question page for that topic. Users can add questions and delete questions. Selecting a question allows users to add answers that question.</p>
+<h3>Front-end: User-Interactive Study Page</h3>
+<p>You can explore the website <a href="http://adamsissokobucket.s3-website-us-east-1.amazonaws.com/">here</a>.</p>
+
+<p>The front-end is designed to act as a study aid where users can dynamically engage with topics. Upon selecting a particular topic, the interface redirects to a dedicated question page for that topic. Here, users can exercise a range of functionalities:</p>
+
+<ul>
+  <li><strong>Add Questions:</strong> Users can contribute questions related to the selected topic.</li>
+  <li><strong>Delete Questions:</strong> Any added question can be removed as well.</li>
+  <li><strong>Interact with Questions:</strong> Upon selecting a specific question, users are given the option to add answers, facilitating a more interactive learning experience.</li>
+</ul>
+
+<p>This design aims to provide a versatile platform for users to focus on specific topics while having the flexibility to customize the study material.</p>
 
 <table>
     <tr>
@@ -204,8 +213,8 @@ To install and run the application, follow the instructions below.
         
 </table>
 
-<h3>Backend SPA (using Angular, Express, node.js, and MongoDB)</h3>
-<p>The backend uses the AWS environment to serve the front end website as well as store data in DynamoDB. The data is accessed via Lambda functions through the Amazon API Gateway. The entire front end is stored in the Amazon S3 Bucket environment, as shown in the below image.</p>
+<h3>Backend Architecture: AWS, Angular, Node.js, and DynamoDB</h3>
+<p>The backend infrastructure leverages AWS services to deliver the front-end interface and manage data storage through DynamoDB. Lambda functions are employed for data access, interacting with the Amazon API Gateway. All front-end assets are securely hosted in an Amazon S3 bucket, as depicted in the accompanying image.</p>
 
 <table>
     <tr>
