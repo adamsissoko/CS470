@@ -81,67 +81,23 @@
 </details>
 
 
-<!-- ABOUT THE COURSE -->
-## About The Course
-<h3>
-Course Prerequisites
-</h3>
 
-- [x] <a href="https://github.com/adamsissoko/CS465">CS 465</a> 
-
-<h3>
-Course Description
-</h3>
-<p>Students will develop a full stack application that runs in the cloud. Through the application of cloud-based development principles and best practices, students will take their software stack from Full Stack Development I and utilize frameworks to build the cloud architecture upon which the software stack application will run. In addition, students will demonstrate their career readiness by articulating highly technical content to various audiences and in various formats. This course is the second in a two-course sequence.
-</p>
-<p>
-This course covers the following competencies, which represent the knowledge and skills relevant to the field:
-
-- [x] CS-40430: Apply cloud-based development principles and best practices in application development
-- [x] CS-40431: Develop applications that run on cloud-based frameworks
-- [x] CS-40432: Defend design decisions to a variety of audiences and in a variety of formats
-
-</p>
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-<div align = "center">
-  <h3>AWS Web Application</h3>
-  <img src="https://github.com/adamsissoko/CS470/blob/main/images/main_page.png" alt="Main" width="500"><p></p>
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)-->
+<div align="center">
+  <h1>AWS Web Application for Resource Management</h1>
+  <img src="https://github.com/adamsissoko/CS470/blob/main/images/main_page.png" alt="Main Application Interface" width="500">
 </div>
-
+<h2>Overview</h2>
 <p>
-  In this course, we delved into container-based web application development, initially utilizing Docker and Docker Compose. The application featured an Angular front end, a Node.js backend, and MongoDB for local data storage. 
-  
-  Later, the application was migrated to the Amazon Web Services (AWS) ecosystem, leveraging services like DynamoDB for database management and Lambda functions for data stream processing and user engagement.
-  
-  Navigating through AWS's intricate configurations between Lambda and the API presented numerous challenges that required targeted problem-solving and debugging. Given my affinity for problem-solving, I found every part of this project enriching. The final version of the application can be accessed via the link provided above.
+  This repository showcases a containerized web application initially designed using Docker and Docker Compose for local development. The application features a front-end developed in Angular, a back-end implemented in Node.js, and utilizes MongoDB for initial data storage.The project later transitioned to the Amazon Web Services (AWS) infrastructure, taking advantage of the AWS service stack. The database was migrated to DynamoDB, and AWS Lambda functions were utilized for data processing and to enrich user interaction.</p>
+<h3>Challenges and Learning Outcomes</h3>
+<p>
+  Maneuvering through AWS's complex configurations, especially between Lambda functions and the API Gateway, proved to be a labyrinthine task. The project necessitated rigorous debugging and troubleshooting efforts. This experience not only enriched my understanding of AWS but also allowed me to further develop my problem-solving skills. The application is now live and can be accessed via the link above.
 </p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- BUILT WITH -->
-### Built With
-
-This project used the following frameworks, and will require them to run on your machine. See the <a href="#installation">installation</a> section for more information.
-
-[![Angular][Angular.io]][Angular-url]
-
-[![Node][Node.js]][Node-url]
-
-[![Express][Express.js]][Express-url]
-
-[![Mongodb][Mongodb]][Mongodb-url]
-
-[![Docker][Docker]][Docker-url]
-
-[![DynamoDB][DynamoDB]][DynamoDB-url]
-
-[![AWS][AWS]][AWS-url]
+<p align="right">(<a href="#readme-top">back to top</a>)</p><h2>Technological Stack</h2>
+<p>
+  This application was built using a robust stack of technologies, each contributing significantly to different facets of the application. For more information on how to run the application locally, please refer to the <a href="#installation">installation</a> section below.
+</p>
+<div align="left">: Used for crafting the responsive and intuitive front-end.: Serves as the back-end runtime, built on Chrome's V8 JavaScript engine.: A Node.js web application framework that handles the application's API and middleware.: Utilized for local data storage before migration to AWS DynamoDB.: Used for containerizing the application, enhancing its portability.: AWS's NoSQL database service, utilized for efficient data storage.: Serverless compute service, used for running backend functions in the AWS cloud.</div>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
