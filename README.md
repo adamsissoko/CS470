@@ -34,7 +34,7 @@
     <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Logo" width="210">
   </a>
 
-  <h3 align="center">CS 470: Full Stack Development II</h3>
+  <h3 align="center"> AWS-Integrated Web Application for Dynamic Resource Management </h3>
 
   <p align="center">
     Adam Sissoko
