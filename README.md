@@ -87,7 +87,7 @@
 Course Prerequisites
 </h3>
 
-- [x] <a href="https://github.com/adamsissoko/SNHU_CS_465_Full-Stack-Development-I">CS 465</a> 
+- [x] <a href="https://github.com/adamsissoko/CS465">CS 465</a> 
 
 <h3>
 Course Description
