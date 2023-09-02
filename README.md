@@ -238,9 +238,19 @@ To install and run the application, follow the instructions below.
    </tr>
 </table>
 
-<p>
-  In order to test the application before migrating to the AWS cloud, a set of containers were configured using Docker Compose. These containers ran in tandem on a local machine, as illustrated below (Docker Desktop, "lafs-web" and "lafs-api"). MongoDB stands in for Dynamo, and the container front end is accessable through local host port 4000.
-</p>
+<h3>Local Testing Environment: Using Docker Compose</h3>
+<p>Before transitioning the application to the AWS cloud, a rigorous testing phase was undertaken locally using Docker Compose. This was aimed at simulating the interplay between various components of the application.</p>
+
+<p><strong>Setup Details:</strong></p>
+
+<ul>
+  <li><strong>Docker Desktop:</strong> Served as the primary dashboard for managing and observing container activities.</li>
+  <li><strong>lafs-web:</strong> This container housed the front-end Angular application, making it accessible via a local host at port 4000.</li>
+  <li><strong>lafs-api:</strong> The container responsible for the back-end, built on Node.js and Express.</li>
+  <li><strong>MongoDB:</strong> Utilized as a local database, standing in for what would eventually be DynamoDB on AWS.</li>
+</ul>
+
+<p>This approach allowed for an isolated testing environment where each component could be scrutinized for functionality and interoperability. Once confident that the application was behaving as expected, the transition was made to deploy it on AWS.</p>
 
 <table>
     <tr>
